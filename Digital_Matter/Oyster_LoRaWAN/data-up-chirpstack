@@ -1,0 +1,87 @@
+// Data Upload from Chirpstack
+
+{
+    "phy_payload": {
+        "mhdr": {
+            "m_type": "UnconfirmedDataUp",
+            "major": "LoRaWANR1"
+        },
+        "mic": [
+            128,
+            18,
+            250,
+            78
+        ],
+        "payload": {
+            "f_port": 1,
+            "fhdr": {
+                "devaddr": "78000197",
+                "f_cnt": 1356,
+                "f_ctrl": {
+                    "ack": false,
+                    "adr": false,
+                    "adr_ack_req": false,
+                    "class_b": false,
+                    "f_opts_len": 0,
+                    "f_pending": false
+                },
+                "f_opts": []
+            },
+            "frm_payload": "b351ec0fef4f4ebc0100d5"
+        }
+    },
+    "rx_info": [
+        {
+            "context": "W0EnzA==",
+            "crcStatus": "CRC_OK",
+            "gatewayId": "af8b2c69cdfc5384",
+            "gwTime": "2024-09-04T17:42:53.021+00:00",
+            "metadata": {
+                "gateway_h3index": "8c4870711c945ff",
+                "gateway_id": "13AaPCxdKSnEdHMgXxUaTtG2QeVeQBeerwYcBENEiBVgCCTY9RV",
+                "gateway_lat": "26.710127362543140",
+                "gateway_long": "-113.573827126077234",
+                "gateway_name": "lone-walnut-halibut",
+                "network": "helium_iot",
+                "regi": "US915",
+                "region_common_name": "US915",
+                "region_config_id": "us915_1"
+            },
+            "nsTime": "2024-09-04T17:42:53.082952857+00:00",
+            "rssi": -83,
+            "snr": 11.800000190734863,
+            "uplinkId": 8388
+        },
+        {
+            "context": "JsctvA==",
+            "crcStatus": "CRC_OK",
+            "gatewayId": "912aa4fcd3e993bc",
+            "gwTime": "2024-09-04T17:42:53.004+00:00",
+            "metadata": {
+                "gateway_h3index": "8c48707122561ff",
+                "gateway_id": "112Fa1SByEwcKGY4wGieLQSV6AdbXjJ6MtGqBFQspb7nC48qZBrY",
+                "gateway_lat": "26.723663727773356",
+                "gateway_long": "-113.546752255861890",
+                "gateway_name": "quiet-pine-squid",
+                "network": "helium_iot",
+                "regi": "US915",
+                "region_common_name": "US915",
+                "region_config_id": "us915_1"
+            },
+            "nsTime": "2024-09-04T17:42:53.047453614+00:00",
+            "rssi": -122,
+            "snr": -6.800000190734863,
+            "uplinkId": 16161
+        }
+    ],
+    "tx_info": {
+        "frequency": 904900000,
+        "modulation": {
+            "lora": {
+                "bandwidth": 125000,
+                "codeRate": "CR_4_5",
+                "spreadingFactor": 8
+            }
+        }
+    }
+}
