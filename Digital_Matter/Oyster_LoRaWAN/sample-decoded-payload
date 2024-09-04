@@ -1,0 +1,86 @@
+// sample decoded payload saved at /tmp/full_request.json on the production server:
+{
+    "object": {
+        "latitude": 26.7145784,
+        "longitude": -113.57184,
+        "accuracy": 2.5,
+        "altitude": 0
+    },
+    "adr": false,
+    "confirmed": false,
+    "data": "OFLsDwBQTrzVANU=",
+    "deduplicationId": "07bb636e-c19a-4c90-bd34-166027709749",
+    "devAddr": "78000197",
+    "deviceInfo": {
+        "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+        "tenantName": "ChirpStack",
+        "applicationId": "325b6c03-2d26-487a-a6e5-1e07314b04db",
+        "applicationName": "Panga Mappers",
+        "deviceProfileId": "060f84d7-11f0-45ce-ad5d-c3713af4ea69",
+        "deviceProfileName": "Oyster Panga Mappers",
+        "deviceName": "Oyster # 8 (2510)",
+        "devEui": "70b3d57050012510",
+        "deviceClassEnabled": "CLASS_A",
+        "tags": {}
+    },
+    "dr": 1,
+    "fCnt": 1357,
+    "fPort": 1,
+    "rxInfo": [
+        {
+            "gatewayId": "912aa4fcd3e993bc",
+            "uplinkId": 840,
+            "gwTime": "2024-09-04T17:45:03.107+00:00",
+            "nsTime": "2024-09-04T17:45:03.159750654+00:00",
+            "rssi": -119,
+            "snr": -5,
+            "context": "LohkzA==",
+            "metadata": {
+                "network": "helium_iot",
+                "region_config_id": "us915_1",
+                "gateway_name": "quiet-pine-squid",
+                "gateway_h3index": "8c48707122561ff",
+                "region_common_name": "US915",
+                "gateway_lat": "26.723663727773356",
+                "regi": "US915",
+                "gateway_id": "112Fa1SByEwcKGY4wGieLQSV6AdbXjJ6MtGqBFQspb7nC48qZBrY",
+                "gateway_long": "-113.546752255861890"
+            },
+            "crcStatus": "CRC_OK",
+            "time": "2024-09-04T17:45:03.107+00:00"
+        },
+        {
+            "gatewayId": "af8b2c69cdfc5384",
+            "uplinkId": 2544,
+            "gwTime": "2024-09-04T17:45:03.117+00:00",
+            "nsTime": "2024-09-04T17:45:03.161458470+00:00",
+            "rssi": -85,
+            "snr": 13.8,
+            "context": "YwJe1A==",
+            "metadata": {
+                "gateway_name": "lone-walnut-halibut",
+                "network": "helium_iot",
+                "gateway_h3index": "8c4870711c945ff",
+                "regi": "US915",
+                "gateway_long": "-113.573827126077234",
+                "region_common_name": "US915",
+                "region_config_id": "us915_1",
+                "gateway_id": "13AaPCxdKSnEdHMgXxUaTtG2QeVeQBeerwYcBENEiBVgCCTY9RV",
+                "gateway_lat": "26.710127362543140"
+            },
+            "crcStatus": "CRC_OK",
+            "time": "2024-09-04T17:45:03.117+00:00"
+        }
+    ],
+    "time": "2024-09-04T17:45:03.107+00:00",
+    "txInfo": {
+        "frequency": 904100000,
+        "modulation": {
+            "lora": {
+                "bandwidth": 125000,
+                "spreadingFactor": 9,
+                "codeRate": "CR_4_5"
+            }
+        }
+    }
+}
