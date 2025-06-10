@@ -1,0 +1,38 @@
+{
+  "name": "console-decoders",
+  "version": "1.0.0",
+  "description": "LoRaWAN payload decoder functions and testing tools for Helium Console",
+  "main": "test-decoder.js",
+  "scripts": {
+    "test": "node test-decoder.js",
+    "help": "node test-decoder.js --help",
+    "list": "node test-decoder.js --list"
+  },
+  "bin": {
+    "test-decoder": "./test-decoder.js"
+  },
+  "keywords": [
+    "lorawan",
+    "helium",
+    "console",
+    "decoder",
+    "payload",
+    "iot",
+    "testing"
+  ],
+  "author": "JT <jt@buoy.fish>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buoy-fish-tech/console-decoders.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buoy-fish-tech/console-decoders/issues"
+  },
+  "homepage": "https://github.com/buoy-fish-tech/console-decoders#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+} 
